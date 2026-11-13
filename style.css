@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* 2. NAVIGATION */
+
+header {
+    background-color: #172d43;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d9b879;
+}
+
+
+/* 3. SECTIONS */
+
+section {
+    padding: 60px 10%;
+}
+
+section h2 {
+    color: #172d43;
+    margin-bottom: 20px;
+}
+
+
+/* 4. ACCUEIL */
+
+#accueil {
+    background-color: #edf1f3;
+    padding: 80px 10%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction:  row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    color: #172d43;
+    margin: 15px 0;
+}
+
+.hero-text h2 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    flex: 0 0 300px;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+
+/* 5. EXPERIENCES */
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+
+/* 6. LIENS ET BOUTONS */
+
+a {
+    color: #315c7e;
+}
+
+button {
+    background-color: #172d43;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* 7. FORMULAIRE */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* 8. VIDEO */
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* 9. FOOTER */
+
+footer {
+    background-color: #172d43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: white;
+}
+
+
+/* 10. ADAPTATION TELEPHONE */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section {
+        padding: 40px 6%;
+    }
+
+    #accueil h1 {
+        font-size: 28px;
+    }
+
+}

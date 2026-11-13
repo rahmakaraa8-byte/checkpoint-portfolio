@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rahma Karaa | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. BARRE DE NAVIGATION -->
+
+    <header>
+
+        <nav>
+
+            <h2>Rahma Karaa</h2>
+
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- 2. CONTENU PRINCIPAL -->
+
+    <main>
+
+        <!-- ACCUEIL -->
+
+       <section id="accueil">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <p class="subtitle">PORTFOLIO PROFESSIONNEL</p>
+
+            <h1>Rahma Karaa</h1>
+
+            <h2>Élève ingénieure en Génie Civil</h2>
+
+            <p>
+                Étudiante en 3ème année à Polytech,
+                Université Centrale.
+                Passionnée par la conception des structures,
+                le BIM et les infrastructures.
+            </p>
+
+            <a href="cv.pdf" download class="btn">
+                Télécharger mon CV
+            </a>
+
+            <a href="#projets" class="btn-outline">
+                Découvrir mes projets
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/photo-profil.jpeg"
+                 alt="Photo professionnelle de Rahma">
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- À PROPOS -->
+
+        <section id="about">
+
+            <h2>À propos de moi</h2>
+
+            <p>
+                Je suis étudiante en troisième année
+                de Génie Civil à Polytech, Université Centrale.
+
+                Je m'intéresse particulièrement au dimensionnement
+                des structures, au BIM et aux infrastructures.
+            </p>
+
+            <h3>Mes compétences</h3>
+
+            <ul>
+                <li>Revit Architecture et Structure</li>
+                <li>AutoCAD</li>
+                <li>Robot Structural Analysis</li>
+                <li>Global Mapper</li>
+                <li>PISTE 5</li>
+            </ul>
+
+        </section>
+
+
+        <!-- EXPÉRIENCE PROFESSIONNELLE -->
+
+        <section id="experience">
+
+            <h2>Expérience professionnelle</h2>
+
+            <article>
+
+                <h3>Afrique Travaux</h3>
+
+                <p>
+                    Stage ouvrier : découverte du chantier
+                    et suivi des travaux de construction.
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>EVOBIM</h3>
+
+                <p>
+                    Stage BIM : modélisation et coordination
+                    BIM avec le logiciel Revit.
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>CIAG Concept</h3>
+
+                <p>
+                    Stage en bureau d'études :
+                    découverte de la conception et des études
+                    de structures.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- CV -->
+
+        <section id="cv">
+
+            <h2>Mon Curriculum Vitae</h2>
+
+            <p>
+                Découvrez mon parcours académique,
+                mes compétences et mes expériences.
+            </p>
+
+            <a href="cv.pdf" target="_blank">
+                Consulter mon CV
+            </a>
+
+            <br><br>
+
+            <a href="cv.pdf" download>
+                Télécharger mon CV
+            </a>
+
+        </section>
+
+
+        <!-- PRÉSENTATION VIDÉO -->
+
+        <section id="presentation">
+
+            <h2>Ma présentation vidéo</h2>
+
+            <p>
+                Découvrez une courte présentation
+                de mon parcours.
+            </p>
+
+            <video controls width="500">
+
+                <source src="videos/presentation.mp4"
+                        type="video/mp4">
+
+                Votre navigateur ne supporte pas cette vidéo.
+
+            </video>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+
+            <h2>Contactez-moi</h2>
+
+            <p>Vous pouvez me laisser un message.</p>
+
+            <form>
+
+                <label for="nom">Nom :</label>
+
+                <input type="text"
+                       id="nom"
+                       name="nom"
+                       placeholder="Votre nom"
+                       required>
+
+                <label for="email">Email :</label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Votre adresse email"
+                       required>
+
+                <label for="sujet">Sujet :</label>
+
+                <input type="text"
+                       id="sujet"
+                       name="sujet"
+                       placeholder="Sujet du message">
+
+                <label for="message">Message :</label>
+
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          placeholder="Écrivez votre message..."
+                          required></textarea>
+
+                <button type="submit">Envoyer</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- 3. PIED DE PAGE -->
+
+    <footer>
+
+        <p>© 2026 Rahma Karaa - Tous droits réservés.</p>
+
+        <p>Étudiante en Génie Civil</p>
+
+        <a href="https://www.linkedin.com/"
+           target="_blank">
+            Mon LinkedIn
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
